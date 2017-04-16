@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:#index.xhtml" PATH="/index.xhtml"
+  SHAPE="32,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#index.xhtml:0" NAME="item"
+   PATH="/index.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="customerError::#error.xhtml" NAME="output"
+    PATH="/error.xhtml" TARGET="rules:#error.xhtml"
+    TITLE="customerError" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="customerCreated::#list.xhtml" NAME="output1"
+    PATH="/list.xhtml" TARGET="rules:#list.xhtml"
+    TITLE="customerCreated" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#list.xhtml" PATH="/list.xhtml"
+  SHAPE="256,177,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#list.xhtml:0" NAME="item" PATH="/list.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="customerError::#error.xhtml" NAME="output"
+    PATH="/error.xhtml" TARGET="rules:#error.xhtml"
+    TITLE="customerError" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="customerRetrieved::#edit.xhtml"
+    NAME="output1" PATH="/edit.xhtml" TARGET="rules:#edit.xhtml"
+    TITLE="customerRetrieved" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#error.xhtml" PATH="/error.xhtml"
+  SHAPE="256,33,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#edit.xhtml" PATH="/edit.xhtml"
+  SHAPE="272,321,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#edit.xhtml:0" NAME="item" PATH="/edit.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="customerError::#error.xhtml" NAME="output"
+    PATH="/error.xhtml" TARGET="rules:#error.xhtml"
+    TITLE="customerError" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="customerEdited::#list.xhtml" NAME="output1"
+    PATH="/list.xhtml" TARGET="rules:#list.xhtml" TITLE="customerEdited" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+</PROCESS>
