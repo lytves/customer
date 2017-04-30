@@ -117,11 +117,11 @@ public class Customer implements Serializable {
         this.phone = phone;
     }
 
-	@Override
-	public String toString() {
-		return "Customer [id=" + id + ", firstname=" + firstname + ", lastname=" + lastname + ", address=" + address
-				+ ", email=" + email + ", phone=" + phone + "]";
-	}
+//	@Override
+//	public String toString() {
+//		return "Customer [id=" + id + ", firstname=" + firstname + ", lastname=" + lastname + ", address=" + address
+//				+ ", email=" + email + ", phone=" + phone + "]";
+//	}
     
     
 }
