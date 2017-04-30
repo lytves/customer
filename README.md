@@ -2,7 +2,7 @@
 
 [Java Platform, Enterprise Edition: The Java EE Tutorial](https://docs.oracle.com/javaee/7/tutorial/) - site Oracle
 
-[The Java EE Tutorial](https://docs.oracle.com/javaee/7/JEETT.pdf) - pdf
+[The Java EE Tutorial. Oracle](https://docs.oracle.com/javaee/7/JEETT.pdf) - pdf
 ___
 - **customer**
 
