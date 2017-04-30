@@ -1,6 +1,6 @@
 ## Java EE 7 Tutorial: JAX-RS Client API
 
-[Java Platform, Enterprise Edition: The Java EE Tutorial](https://docs.oracle.com/javaee/7/tutorial/) - site Oracle
+[Java Platform, Enterprise Edition: The Java EE Tutorial. Oracle](https://docs.oracle.com/javaee/7/tutorial/) - web version
 
 [The Java EE Tutorial. Oracle](https://docs.oracle.com/javaee/7/JEETT.pdf) - pdf
 ___
